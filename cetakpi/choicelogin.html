@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+  img {
+  padding: 5px;
+
+  width: 4%;
+  position: absolute;
+  margin-top: 6px;
+
+margin-right: auto;
+margin-left: 20px;
+display: block;
+}
+
+.btn3{
+  float: right;
+  font-family: lato;
+  font-size: 20px;
+}
+
+nav{
+  margin-top: 11px;
+  width: 100%;
+  background: #D3D3D3;
+  overflow: auto;
+}
+
+ul{
+  padding: 0;
+  margin: 0 0 0 150px;
+  list-style: none;
+}
+
+.btn2{
+  float: left;
+  font-family: lato;
+  font-size: 20px;
+  color: grey;
+
+}
+
+nav a{
+  padding: 20px;
+  display: block;
+  padding: 30px 15px;
+  text-decoration: none;
+  font-family: Lato;
+  color: grey;
+  text-align: center;
+}
+
+nav a:hover{
+  background: grey;
+  transition: 0.5;
+  color: white;
+}
+
+.loginform{
+  width: 400px;
+  height: 460px;
+  box-shadow: 2px 2px 25px lightgrey;
+}
+
+input{
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+  border: 0px;
+
+}
+
+.l{
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-left: 140px;
+}
+</style>
+<body>
+
+
+
+<br><br>
+ <center>
+<br>
+ <h2>
+    User login
+  </h2><br>
+<div class="loginform">
+  
+    <br><center>
+    <a href=""><img class="l" src="logo.png"></a></center>
+   <br><br><br><br><br><br>
+  <br><br>
+  <form method="POST" action="userlogin.php">
+      Username : <input type="text" name="username" ><br><br>
+      Password : <input type="password" name="password" ><br><br>
+      <button type="submit" value="submit">Login</button><br><Br>
+      <a href="index.html">Back</a>
+    </form><br><br>
+    Do not have account? <a href="userreg.html">Register</a>
+      
+
+ 
+</div>
+</center>
+</body>
+
+</html>
